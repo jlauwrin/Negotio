@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20B2D8828E6B7EB007E690D /* TheoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B2D8728E6B7EB007E690D /* TheoryView.swift */; };
 		B2A90BF628E18CA800650F1C /* macroProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A90BF528E18CA800650F1C /* macroProjectApp.swift */; };
 		B2A90BF828E18CA800650F1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A90BF728E18CA800650F1C /* ContentView.swift */; };
 		B2A90BFA28E18CA900650F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A90BF928E18CA900650F1C /* Assets.xcassets */; };
 		B2A90BFD28E18CA900650F1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A90BFC28E18CA900650F1C /* Preview Assets.xcassets */; };
 		B2A90BFF28E18CA900650F1C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A90BFE28E18CA900650F1C /* Persistence.swift */; };
 		B2A90C0228E18CA900650F1C /* macroProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2A90C0028E18CA900650F1C /* macroProject.xcdatamodeld */; };
+		B2A90C0D28E2DDBE00650F1C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A90C0C28E2DDBE00650F1C /* HomeView.swift */; };
+		B2C62CC028E6E8D30004B988 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C62CBF28E6E8D30004B988 /* TutorialView.swift */; };
+		B2C62CC228E6E8DD0004B988 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C62CC128E6E8DD0004B988 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B20B2D8728E6B7EB007E690D /* TheoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheoryView.swift; sourceTree = "<group>"; };
 		B2A90BF228E18CA800650F1C /* macroProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macroProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A90BF528E18CA800650F1C /* macroProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macroProjectApp.swift; sourceTree = "<group>"; };
 		B2A90BF728E18CA800650F1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +28,9 @@
 		B2A90BFC28E18CA900650F1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2A90BFE28E18CA900650F1C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B2A90C0128E18CA900650F1C /* macroProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = macroProject.xcdatamodel; sourceTree = "<group>"; };
+		B2A90C0C28E2DDBE00650F1C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B2C62CBF28E6E8D30004B988 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		B2C62CC128E6E8DD0004B988 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 		B2A90BF428E18CA800650F1C /* macroProject */ = {
 			isa = PBXGroup;
 			children = (
+				B20B2D8728E6B7EB007E690D /* TheoryView.swift */,
+				B2C62CBF28E6E8D30004B988 /* TutorialView.swift */,
+				B2C62CC128E6E8DD0004B988 /* HistoryView.swift */,
+				B2A90C0C28E2DDBE00650F1C /* HomeView.swift */,
 				B2A90BF528E18CA800650F1C /* macroProjectApp.swift */,
 				B2A90BF728E18CA800650F1C /* ContentView.swift */,
 				B2A90BF928E18CA900650F1C /* Assets.xcassets */,
@@ -143,9 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C62CC028E6E8D30004B988 /* TutorialView.swift in Sources */,
+				B2C62CC228E6E8DD0004B988 /* HistoryView.swift in Sources */,
 				B2A90BFF28E18CA900650F1C /* Persistence.swift in Sources */,
+				B20B2D8828E6B7EB007E690D /* TheoryView.swift in Sources */,
 				B2A90BF828E18CA800650F1C /* ContentView.swift in Sources */,
 				B2A90C0228E18CA900650F1C /* macroProject.xcdatamodeld in Sources */,
+				B2A90C0D28E2DDBE00650F1C /* HomeView.swift in Sources */,
 				B2A90BF628E18CA800650F1C /* macroProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

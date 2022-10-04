@@ -31,9 +31,7 @@ struct Home: View{
     
     var body: some View{
         
-        Text("Welcome to home !!!")
-            .font(.title)
-            .fontWeight(.heavy)
+        HomeView()
     }
 }
 
